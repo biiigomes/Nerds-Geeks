@@ -1,0 +1,50 @@
+.cabecalho {
+    padding: 3%;
+    background-color: #037378;
+}
+
+.titulo {
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.cabecalho__navegacao {
+    display: flex;
+    justify-content: center;
+    display: grid;
+    font-size: 20px;
+}
+
+.cabecalho__link {
+    display: inline-grid;
+    flex-direction: column;
+    color: white;
+}
+
+.icon {
+    justify-content: end;
+    color: white;
+    font-size: 30px;
+}
+
+.chamada {
+    background-color: #037378;
+}
+
+.chamada__titulo{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.chamada__texto{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.chamada__botao{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+}
