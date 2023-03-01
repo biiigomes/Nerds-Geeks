@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.header {
+    position: absolute;
+    width: 360px;
+    height: 122px;
+    left: 0px;
+    top: 0px;
+    background: #C89C38;
+}
+
+.header-text {
+    position: absolute;
+width: 263px;
+height: 61px;
+left: 82px;
+top: 30px;
+
+font-family: 'Dancing Script';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 58px;
+
+color: #000000;
+
+backdrop-filter: blur(2px);
+}
