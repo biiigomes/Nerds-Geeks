@@ -11,18 +11,27 @@
 
 .header-text {
     position: absolute;
-width: 263px;
-height: 61px;
-left: 82px;
-top: 30px;
+    width: 263px;
+    height: 61px;
+    left: 82px;
+    top: 30px;
 
-font-family: 'Dancing Script';
-font-style: normal;
-font-weight: 700;
-font-size: 48px;
-line-height: 58px;
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
 
-color: #000000;
+    color: #000000;
 
-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+}
+
+.logo-image {
+    position: absolute;
+    width: 59px;
+    height: 61px;
+    left: 15px;
+    top: 30px;
+
 }
