@@ -1,37 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
 .header {
-    position: absolute;
-    width: 360px;
-    height: 122px;
-    left: 0px;
-    top: 0px;
+    display: flex;
+    justify-content: center;
     background: #C89C38;
 }
 
 .header-text {
-    position: absolute;
-    width: 263px;
-    height: 61px;
-    left: 82px;
-    top: 30px;
-
+    display: flex;
+    justify-content: center;
     font-family: 'Dancing Script';
     font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 58px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 50px;
+    margin-left: 20px;
 
     color: #000000;
-
-    backdrop-filter: blur(2px);
 }
 
-.logo-image {
-    position: absolute;
-    width: 59px;
-    height: 61px;
-    left: 15px;
-    top: 30px;
-
+.header .logo-image {
+    display: flex;
+    justify-content: center;
+    width: 55px;
+    height: 56px;
 }
