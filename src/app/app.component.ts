@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { SlideInterface } from './shared/slider/slide.interface';
 
 @Component({
   selector: 'app-root',

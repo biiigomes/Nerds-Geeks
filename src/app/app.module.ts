@@ -8,6 +8,7 @@ import { HeaderComponent } from './shared/header/header.component';
 
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ImageSliderModule } from './shared/slider/imageSlider.module';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     BrowserModule,
     AppRoutingModule,
     MatToolbarModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    ImageSliderModule
   ],
   providers: [],
   bootstrap: [AppComponent]
