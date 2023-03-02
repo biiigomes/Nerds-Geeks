@@ -11,8 +11,16 @@ export class ImageSliderComponent {
 
   currentIndex: number = 0;
 
-  getCurrentSlideUrl(): string {
+  getImageFirstContainer(): string {
     return `url('${this.slides[this.currentIndex].url}')`
+  }
+
+  getImageSecondContainer(): string {
+    return `url('${this.slides[this.currentIndex + 1].url}')`
+  }
+
+  getImageThirdContainer(): string {
+    return `url('${this.slides[this.currentIndex + 2].url}')`
   }
 
   backPicture(){

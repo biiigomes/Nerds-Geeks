@@ -1,18 +1,26 @@
 <div class="slider">
     <div class="container">
-        <div class="leftArrow" (click)="backPicture()">(</div>
-        <div 
-            class="slide" 
-            [ngStyle]="{'background-image': getCurrentSlideUrl()}">
+        <div class="leftArrow" (click)="backPicture()">
+            <i class="material-icons">
+                arrow_back_ios
+            </i>
         </div>
         <div 
             class="slide" 
-            [ngStyle]="{'background-image': getCurrentSlideUrl()}">
+            [ngStyle]="{'background-image': getImageFirstContainer()}">
         </div>
         <div 
             class="slide" 
-            [ngStyle]="{'background-image': getCurrentSlideUrl()}">
+            [ngStyle]="{'background-image': getImageSecondContainer()}">
         </div>
-        <div class="rightArrow" (click)="nextPicture()">)</div>
+        <div 
+            class="slide" 
+            [ngStyle]="{'background-image': getImageThirdContainer()}">
+        </div>
+        <div class="rightArrow" (click)="nextPicture()">
+            <i class="material-icons">
+                arrow_forward_ios
+            </i>
+        </div>
     </div>
 </div>
